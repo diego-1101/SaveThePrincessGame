@@ -5,7 +5,7 @@
 
 ## Sobre o Jogo
 
-"Save The Princess" é um jogo de plataforma 2D desenvolvido em Python utilizando a biblioteca Pygame Zero. O objetivo é simples, mas desafiador: você controla um cavaleiro que deve escalar o cenário, resgatar a princesa presa no topo do castelo e trazê-la de volta em segurança para a zona verde (Spawn) na base do mapa.
+"Save The Princess" é um jogo de plataforma 2D desenvolvido em Python utilizando a biblioteca Pygame Zero. O objetivo é simples: você controla um cavaleiro que deve escalar o cenário, resgatar a princesa presa no topo do castelo e trazê-la de volta em segurança para a zona verde (Spawn) na base do mapa.
 
 ### Mecânicas Principais:
 *   **Resgate:** Ao tocar na princesa, você a carrega.
