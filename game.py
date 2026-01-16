@@ -268,7 +268,6 @@ class FireEnemy(AnimatedSprite):
             p["actor"].draw()
 
 class SwordEnemy(AnimatedSprite):
-    """Inimigo Espada: Aleatorio + Atira se ver."""
     def __init__(self, x, y):
         super().__init__(x, y, "sword_monster")
         self.add_anim("idle", "sword_monster_idle", 2)
