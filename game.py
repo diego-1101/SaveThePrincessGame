@@ -431,7 +431,7 @@ class Game:
         screen.fill(COLOR_BG)
         
         if self.state == STATE_MENU:
-            screen.draw.text("SALVE A PRINCESA", center=(WIDTH//2, 100), fontsize=60, color="orange")
+            screen.draw.text("Save The Princess", center=(WIDTH//2, 100), fontsize=60, color="orange")
             # Botoes
             lbl_som = "SOM LIGADO" if self.music_on else "SOM DESLIGADO"
             for btn, txt in [(self.btn_start, "JOGAR"), (self.btn_sound, lbl_som), (self.btn_exit, "SAIR")]:
