@@ -9,7 +9,6 @@ HEIGHT = 600
 TITLE = "Save The Princess - Final"
 BLOCK_SIZE = 40  # Tamanho do grid
 SCALE_FACTOR = 1  # Escala dos personagens
-
 # Cores
 COLOR_BG = (20, 20, 30)
 COLOR_TEXT = (255, 255, 255)
@@ -558,7 +557,6 @@ def play_sfx(name):
 def play_bgm():
     try: 
         if not pygame.mixer.music.get_busy():
-            # Carrega explicitamente da pasta sounds
             pygame.mixer.music.load('sounds/background.mp3')
             pygame.mixer.music.play(-1)
             pygame.mixer.music.set_volume(0.5)
