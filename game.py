@@ -8,7 +8,7 @@ WIDTH = 800
 HEIGHT = 600
 TITLE = "Save The Princess - Final"
 BLOCK_SIZE = 40  # Tamanho do grid
-SCALE_FACTOR = 1  # Escala drasticamente reduzida para imagens HD (20% do original)
+SCALE_FACTOR = 1  # Escala dos personagens
 
 # Cores
 COLOR_BG = (20, 20, 30)
